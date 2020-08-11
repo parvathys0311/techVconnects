@@ -1,0 +1,115 @@
+/******************/
+/* Header */
+/******************/
+
+/* header mainly contains logo and navbar */
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    
+  background-color: rgb(255, 255, 255);
+}
+
+/********/
+/* Logo */
+/********/
+
+.logo {
+  width: 200px;
+  padding: 0.5em 0.5em;
+}
+
+/**********/
+/* Navbar */
+/**********/
+
+/* Hamburger menu */
+.btn-menu {
+  padding: 0.5rem 2rem;
+  border-width: 0;
+  background-color: aliceblue;
+}
+
+/* svg img */
+.img-menu {
+  height: 20px;
+}
+
+/* Navbar links */
+
+/* Screen is in 'portrait' orientation (mobile view), hide Navbar (Trips, Contact, Login, Register) */
+/* (desktop view is handled in the media query below) */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav p {
+  margin: 0;
+}
+
+nav div ul {
+  display: none;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav a{
+  color: midnightblue;
+  padding: 0.5em 1em;
+}
+
+
+nav ul li {
+  font-weight: 700;
+}
+
+/* hover, active, and current page effects */
+nav a:hover {
+  color: blue;
+}
+    
+nav a:active {
+  text-shadow: 2px 2px 8px cadetblue;
+}
+  
+/* .current-page {
+  background-image: linear-gradient(cornflowerblue, cadetblue);
+} */
+
+/* welcome message */
+.welcome {
+  color:#cd853f;
+}
+
+/* Screen is in 'landscape' orientation (desktop view) */
+@media (orientation: landscape) {
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav div ul {
+    display: flex;
+  }
+  
+  /* Don't show hamburger menu on desktop view */
+   nav .btn-menu {
+    display: none;
+  }
+  
+}
+
+
+
+
+
