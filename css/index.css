@@ -1,0 +1,120 @@
+/****************/
+/* HERO Section */
+/****************/
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aliceblue;
+  /* background-image: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1874&q=80"); */
+  background-image: url('https://images.unsplash.com/photo-1538170819641-15b741105cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'); */
+  /* background-image: url('https://images.unsplash.com/photo-1481966115753-963394378f23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1574&q=80'); */
+  background-size: cover;
+  background-position: center;
+    
+  min-height:100vh;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  /* font-size: vh; */
+  font-variant: small-caps;
+  color: azure;
+  text-shadow: -1px 1px 0 #000,
+				        1px 1px 0 #000,
+				        1px -1px 0 #000,
+               -1px -1px 0 #000;
+               
+  margin: 0;
+  padding: 0.5rem 4rem 0.5rem 0.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: azure;
+  text-shadow: -1px 1px 0 #000,
+				        1px 1px 0 #000,
+				        1px -1px 0 #000,
+               -1px -1px 0 #000;
+
+  margin: 0;
+  padding: 0.5rem 4rem 0.5rem 0.5rem;
+}
+
+.hero-btn {
+  padding: 5px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(148, 144, 144);
+  background-color: whitesmoke;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.hero-btn:hover {
+  background-color: rgba(148, 148, 140, 0.705);
+} 
+
+/****************************/
+/* Main - Vacation Packages */
+/****************************/
+
+/* also reference index-images.js for innerHTML */
+
+.index-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.index-main h2 {
+  margin-left: 0.5rem;
+}
+
+.vacationPackages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.vacationPackages figure {
+  margin: 0;
+  width: 300px;
+}
+
+.vacationPackages img {
+  width: 95%;
+  height: 230px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.vacationPackages figcaption {
+  color: black;
+  text-align: center;
+}
+
+.active {
+  color: #cd853f;
+}
+/* Responsive sizingfor phone screen size */
+@media screen and (max-width: 600px) {
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+}
