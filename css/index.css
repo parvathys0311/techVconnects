@@ -8,22 +8,33 @@
   align-items: center;
 
   background-color: aliceblue;
-  /* background-image: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1874&q=80"); */
-  background-image: url('https://images.unsplash.com/photo-1538170819641-15b741105cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
-  /* background-image: url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'); */
-  /* background-image: url('https://images.unsplash.com/photo-1481966115753-963394378f23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1574&q=80'); */
-  /* background-image: url('https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
+  /* background-image: url('https://images.unsplash.com/photo-1538170819641-15b741105cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80'); */
+
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg');
+  /* background-image: url('https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_960_720.jpg'); */
+  /* background-image: url('https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_960_720.jpg'); */
+  
+  
+  
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/444/262/334/geometry-cyberspace-digital-art-blue-wallpaper-preview.jpg');
+  
+  
+  /* /* rejected */
+  
+  /* background-image: url('https://c4.wallpaperflare.com/wallpaper/654/555/787/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg'); */
+  /* background-image: url('https://images.unsplash.com/photo-1489376646075-cd00ac377106?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80'); */
+  
   background-size: cover;
   background-position: center;
     
-  min-height:100vh;
+  min-height:70vh;
 }
 
 .hero h2 {
   font-size: 2.5rem;
   /* font-size: vh; */
   font-variant: small-caps;
-  color: rgb(131, 33, 33);
+  color: rgb(255, 255, 255);
   text-shadow: -1px 1px 0 #000,
 				        1px 1px 0 #000,
 				        1px -1px 0 #000,
@@ -35,7 +46,7 @@
 
 .hero p {
   font-size: 1.5rem;
-  color: azure;
+  color: rgb(255, 255, 255);
   text-shadow: -1px 1px 0 #000,
 				        1px 1px 0 #000,
 				        1px -1px 0 #000,
@@ -52,8 +63,8 @@
   font-size: 22px;
   font-weight: 900;
   text-align: center;
-  color: rgb(148, 144, 144);
-  background-color: whitesmoke;
+  color: rgb(7, 7, 7);
+  background-color: rgb(169, 201, 57);
   border: none;
   margin-top: 0.5rem;
 }
@@ -71,19 +82,82 @@
 .index-main {
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .index-main h2 {
   margin-left: 0.5rem;
+  color: rgb(63, 120, 193);
 }
 
-.vacationPackages {
+.section-margin {
+  margin-top: 2.5em;
+}
+
+.service-intro {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
 }
+
+.service-box {
+  display: flex;
+  width: 300px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.service-box p {
+  font-size: 0.9rem;
+}
+
+.service-icon {
+  width: 22%;
+  padding: 0.5em;
+}
+
+.aboutus h2{
+  margin-top: 5em;
+}
+
+
+
+.outer-container {
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  flex-direction: column;
+  
+}
+
+.inner-container {
+  display: flex;
+  margin: 15px;
+  border-radius: 15px;
+  border: solid 0.5px grey;
+  width: 100%;
+}
+
+.sub-container1 {
+  border-right-style: groove;
+  border-color: rgb(63, 120, 193);
+
+  width: 40%;
+
+  padding:2em
+}
+
+.sub-container2 {
+
+  padding:2em
+}
+
 
 .vacationPackages figure {
   margin: 0;
