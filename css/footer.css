@@ -4,11 +4,11 @@
 
 footer {
   color: rgb(83, 82, 82);
-  background-color: rgb(228, 226, 226);
+  background-color: rgb(155, 155, 173);
   margin: 0;
 }
 
-footer p {
+.layout {
   text-align: center;
   margin: 0;
 }
@@ -31,3 +31,4 @@ footer p {
 main {
   flex-grow: 1;
 }
+
