@@ -37,7 +37,7 @@ body {
     
   /* line-height (called leading in print design); browser default is usually 1.2. Try for a minimum of 1.5, max should be less than 2 */
   line-height: 1.7;
-  color: rgb(71, 71, 90);
+  color: rgb(66, 66, 85);
 }
 
 .contact p{
