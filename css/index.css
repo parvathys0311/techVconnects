@@ -1,3 +1,7 @@
+body {
+  background-color: #f8f8ff;
+}
+
 /****************/
 /* HERO Section */
 /****************/
@@ -10,24 +14,24 @@
   background-color: aliceblue;
   /* background-image: url('https://images.unsplash.com/photo-1538170819641-15b741105cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80'); */
 
-  background-image: url('https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg');
+  /* background-image: url('https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg'); */
   /* background-image: url('https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_960_720.jpg'); */
   /* background-image: url('https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_960_720.jpg'); */
   
   
   
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/444/262/334/geometry-cyberspace-digital-art-blue-wallpaper-preview.jpg');
+  /* background-image: url('https://c4.wallpaperflare.com/wallpaper/444/262/334/geometry-cyberspace-digital-art-blue-wallpaper-preview.jpg'); */
   
   
   /* /* rejected */
   
-  /* background-image: url('https://c4.wallpaperflare.com/wallpaper/654/555/787/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg'); */
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/654/555/787/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg');
   /* background-image: url('https://images.unsplash.com/photo-1489376646075-cd00ac377106?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80'); */
   
   background-size: cover;
   background-position: center;
     
-  min-height:70vh;
+  min-height:90vh;
 }
 
 .hero h2 {
@@ -87,7 +91,7 @@
 
 .index-main h2 {
   margin-left: 0.5rem;
-  color: rgb(63, 120, 193);
+  color: rgb(63, 70, 99);
 }
 
 .section-margin {

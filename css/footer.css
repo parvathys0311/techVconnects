@@ -3,8 +3,14 @@
 /******************/
 
 footer {
-  color: rgb(83, 82, 82);
-  background-color: rgb(155, 155, 173);
+  /* color: EEEEEE; */
+  background: linear-gradient(180deg,#d3ced1, #f8f8ff);
+  /* background-color: #dad8d8; */
+  
+  /* animation: BackgroundGradient 30s ease infinite; */
+
+  /* background-size: cover;
+  background-position: center; */
   margin: 0;
 }
 
