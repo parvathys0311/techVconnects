@@ -1,3 +1,7 @@
+body {
+  background-color: snow;
+}
+
 .border {
   /* border-bottom-style: groove; */
   border-bottom: 1px solid grey;

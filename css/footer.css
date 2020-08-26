@@ -8,15 +8,29 @@ footer {
   /* background-color: #dad8d8; */
   
   /* animation: BackgroundGradient 30s ease infinite; */
+  margin: 0;
+  padding-top: 1.5em;
+}
 
-  /* background-size: cover;
-  background-position: center; */
+.layout p,
+.layout h4 {
+  text-align: center;
   margin: 0;
 }
 
-.layout {
-  text-align: center;
-  margin: 0;
+.font-small {
+  font-size: 0.8em;
+}
+
+.title-small{
+  font-size: 0.9em;
+  padding-top: 1em;
+}
+
+.font-copyright {
+  font-size: 0.7em;
+  color: grey;
+  padding: 1em;
 }
 
 /* Following is for "sticky" footer */
