@@ -1,6 +1,10 @@
 body {
   background-color: #f8f8ff;
 }
+.border {
+  /* border-bottom-style: groove; */
+  border-bottom: 1px solid grey;
+}
 
 /****************/
 /* HERO Section */
@@ -31,7 +35,7 @@ body {
   background-size: cover;
   background-position: center;
     
-  min-height:90vh;
+  min-height:80vh;
 }
 
 .hero h2 {
