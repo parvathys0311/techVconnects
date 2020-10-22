@@ -4,8 +4,11 @@
 
 footer {
   /* color: EEEEEE; */
-  background: linear-gradient(180deg,#d3ced1, #f8f8ff);
   /* background-color: #dad8d8; */
+  /* background: linear-gradient(180deg,#d3ced1, #f8f8ff); */
+  /* background-color: rgb(80, 100, 139); */
+  
+  background-color: rgb(66, 66, 85);
   
   /* animation: BackgroundGradient 30s ease infinite; */
   margin: 0;
@@ -16,6 +19,8 @@ footer {
 .layout h4 {
   text-align: center;
   margin: 0;
+  /* color: rgb(223, 221, 221); */
+  color: grey;
 }
 
 .font-small {

@@ -17,9 +17,9 @@ body {
   margin-top: 5em;
 }
 
-.services-main h1 {
+/* .services-main h1 {
   color: rgb(63, 120, 193);
-}
+} */
 
 .outer-container {
   display: flex;
@@ -40,6 +40,9 @@ body {
   /* border: solid 0.5px grey; */
   width: 100%;
   flex-direction: column;
+}
+.heading-content-services{
+  color: rgb(114, 101, 180);
 }
 
 .inner-container-services {
