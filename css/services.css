@@ -1,5 +1,5 @@
 body {
-  background-color: snow;
+  background-color: rgb(255, 255, 255);;
 }
 
 .border {
@@ -8,7 +8,7 @@ body {
 }
 
 .services-main {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
@@ -59,7 +59,7 @@ body {
   width: 100%;
 
   /* margin: 10px; */
-  /* border-radius: 15px; */
+  border-radius: 10px;
 }
 
 .content-services{
