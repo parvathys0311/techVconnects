@@ -1,7 +1,7 @@
 body{
-  background-color: snow;
+  /* background-color: snow; */
   /* background-image: url('https://images.unsplash.com/photo-1495841020177-1919ede29bd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2081&q=80'); */
-
+  background-color: rgb(255, 255, 255);;
   background-size: cover;
   background-position: center;
 }

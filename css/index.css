@@ -72,7 +72,8 @@ body {
   font-weight: 900;
   text-align: center;
   color: rgb(7, 7, 7);
-  background-color: rgb(169, 201, 57);
+  /* background-color: rgb(169, 201, 57); */
+  background-color: rgb(201, 120, 57);
   border: none;
   margin-top: 0.5rem;
 }
@@ -88,7 +89,7 @@ body {
 /* also reference index-images.js for innerHTML */
 
 .index-main {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
 }
@@ -110,6 +111,25 @@ body {
   margin-bottom: 50px;
 }
 
+.service-intro figure {
+  margin: 0;
+  width: 300px;
+}
+
+.service-intro img {
+  width: 20%;
+  /* height: 230px; */
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.service-intro figcaption {
+  color: black;
+  text-align: center;
+}
+
+
+
 .service-box {
   display: flex;
   width: 300px;
@@ -130,7 +150,22 @@ body {
   margin-top: 5em;
 }
 
+.bottom-arrow {
+  border-bottom: 5px solid #6e686bd0;
+}
 
+.bottom-arrow:after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: 30px solid #6e686bd0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
 
 .outer-container {
   display: flex;
@@ -141,7 +176,6 @@ body {
   margin-bottom: 50px;
 
   flex-direction: column;
-  
 }
 
 .inner-container {
@@ -149,20 +183,18 @@ body {
   margin: 15px;
   border-radius: 15px;
   border: solid 0.5px grey;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .sub-container1 {
   border-right-style: groove;
   border-color: rgb(63, 120, 193);
-
-  width: 40%;
-
+  width: 25%;
   padding:2em
 }
 
 .sub-container2 {
-
+  width: 65%;
   padding:2em
 }
 
