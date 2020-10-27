@@ -181,7 +181,7 @@ body {
 .inner-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 15px;
+  margin: 10px;
   border-radius: 15px;
   border: solid 0.5px grey;
   /* width: 100%; */
@@ -192,12 +192,13 @@ body {
   flex-wrap: wrap;
   border-right-style: groove;
   border-color: rgb(63, 120, 193);
-  width: 30%;
-  padding:2em;
+  min-width: 30%;
+  padding:1em;
 }
 
 .sub-container2 {
   flex-wrap: wrap;
+  /* min-width: 60%; */
   width: 60%;
   padding:2em;
   margin: 0 1em 1em 0;
