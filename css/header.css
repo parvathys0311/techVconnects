@@ -71,6 +71,7 @@ nav p {
 
 nav div ul {
   display: none;
+  /* margin-right: 20rem; */
 }
 
 .visible {
@@ -78,6 +79,7 @@ nav div ul {
   flex-direction: column;
   align-items: flex-end;
   margin: 0 auto;
+  padding-right: 3rem;
 }
 
 nav a{
