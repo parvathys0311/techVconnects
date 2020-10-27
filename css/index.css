@@ -204,24 +204,6 @@ body {
   margin: 0 1em 1em 0;
 }
 
-
-.vacationPackages figure {
-  margin: 0;
-  width: 300px;
-}
-
-.vacationPackages img {
-  width: 95%;
-  height: 230px;
-  margin: 10px;
-  border-radius: 15px;
-}
-
-.vacationPackages figcaption {
-  color: black;
-  text-align: center;
-}
-
 .active {
   color: #cd853f;
 }
@@ -238,4 +220,21 @@ body {
   main h2 {
     font-size: 1.5rem;
   }
+
+  .inner-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .sub-container1 {
+    border-right-style: none;
+    border-bottom-style: groove;
+    width: 100%;
+  }
+  
+  .sub-container2 {
+    flex-wrap: wrap;
+    width: 100%; 
+  }
+ 
 }
