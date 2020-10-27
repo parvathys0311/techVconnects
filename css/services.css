@@ -7,6 +7,10 @@ body {
   border-bottom: 1px solid grey;
 }
 
+.mobile{
+  display: none;
+}
+
 .services-main {
   max-width: 1000px;
   margin: 0 auto;
@@ -91,6 +95,46 @@ body {
   text-align: left;
 
   font-size: 0.9em;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile{
+    display: block;
+  } 
+  .desktop {
+    display:none;
+  }
+  .inner-container-services {
+    flex-direction: column;
+  }
+
+  
+  .img-services{
+    width: 100%;
+    padding: 0;
+  }
+  
+  .img-services .image {
+    width: 80%;
+    padding: 0;
+    /* margin: 10px; */
+    /* border-radius: 10px; */
+  }
+  
+  .content-services{
+    /* display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    flex-direction: column; */
+  
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    padding-bottom: 1em;
+  }  
 }
 
 
