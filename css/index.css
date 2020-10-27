@@ -189,6 +189,7 @@ body {
 
 
 .sub-container1 {
+  flex-wrap: wrap;
   border-right-style: groove;
   border-color: rgb(63, 120, 193);
   width: 30%;
@@ -196,6 +197,7 @@ body {
 }
 
 .sub-container2 {
+  flex-wrap: wrap;
   width: 60%;
   padding:2em;
   margin: 0 1em 1em 0;
