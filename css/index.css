@@ -10,6 +10,7 @@ body {
 /* HERO Section */
 /****************/
 .hero {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,11 +31,11 @@ body {
   /* /* rejected */
   
   background-image: url('https://c4.wallpaperflare.com/wallpaper/654/555/787/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg');
-  /* background-image: url('https://images.unsplash.com/photo-1489376646075-cd00ac377106?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80'); */
-  
+
+  /* background-image: url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
   background-size: cover;
   background-position: center;
-    
+
   min-height:80vh;
 }
 
